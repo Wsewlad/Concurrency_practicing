@@ -14,7 +14,7 @@ func taskBasics() throws {
         return 42
     }
     
-    func doSomethingAsync() async {}
+    @Sendable func doSomethingAsync() async {}
     
     Task {
         await doSomethingAsync()

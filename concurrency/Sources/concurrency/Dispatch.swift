@@ -5,7 +5,7 @@
 //  Created by  Vladyslav Fil on 24.10.2022.
 //
 
-import Foundation
+@preconcurrency import Foundation
 
 func dispatchBasics() {
     let queue = DispatchQueue(label: "my.queue", attributes: .concurrent)

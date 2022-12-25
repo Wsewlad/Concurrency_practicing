@@ -12,9 +12,9 @@ let package = Package(
               name: "concurrency",
               dependencies: [],
               swiftSettings: [
-                .unsafeFlags([
-                    "-Xfrontend", "-warn-concurrency"
-                ])
+//                .unsafeFlags([
+//                    "-Xfrontend", "-warn-concurrency"
+//                ])
               ]
         ),
             .testTarget(
